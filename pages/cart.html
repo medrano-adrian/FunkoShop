@@ -8,10 +8,12 @@
   </head>
   <body>
     <header>
-      <picture
-        ><img src="../images/branding/logo_light_horizontal.svg" alt=""
-      /></picture>
       <nav>
+        <picture>
+          <a href="../index.html">
+            <img src="../images/branding/logo_light_horizontal.svg" alt="" />
+          </a>
+        </picture>
         <ul>
           <li><a href="../pages/shop.html">SHOP</a></li>
           <li><a href="../pages/contact.html">CONTACTO</a></li>
@@ -24,5 +26,74 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <h2>CARRITO DE COMPRAS</h2>
+      <section>
+        <h4>DETALLE DE PRODUCTO</h4>
+        <h4>CANTIDAD</h4>
+        <h4>TOTAL</h4>
+      </section>
+      <section>
+        <article>
+          <picture
+            ><img
+              src="../images/star-wars/baby-yoda-1.webp"
+              alt="Figura coleccionable Funko Baby Yoda"
+          /></picture>
+          <p>STAR WARS</p>
+          <p>precio: $1799,99</p>
+          <div>
+            <input type="number" /><button id="sumar">+</button
+            ><button id="restar">-</button>
+          </div>
+          <p>$3599,98</p>
+          <button id="eliminar">x</button>
+        </article>
+        <article>
+          <picture
+            ><img src="../images/pokemon/pidgeotto-1.webp" alt="pidgeotto-1"
+          /></picture>
+          <p>POKEMON</p>
+          <p>Precio unitario: $1799,99</p>
+          <div>
+            <input type="number" /><button id="sumar">+</button
+            ><button id="restar">-</button>
+          </div>
+          <p>$1799,99</p>
+          <button id="eliminar">x</button>
+        </article>
+      </section>
+      <section>
+        <h3>RESUMEN</h3>
+        <div>
+          <p>CANTIDAD DE ELEMENTOS</p>
+          <p>3</p>
+          <p>SUBTOTAL</p>
+          <p>$5399,97</p>
+          <p>ENVIO</p>
+          <p>$0,00</p>
+          <button>IR A PAGAR</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <nav>
+          <ul>
+            <li><a href="../pages/shop.html">SHOP</a></li>
+            <li><a href="../pages/login.html">INGRESAR</a></li>
+            <li><a href="../pages/contact.html">CONTACTO</a></li>
+            <li></li>
+          </ul>
+          <picture>
+            <img
+              src="../images/branding/isotype.svg"
+              alt="Isotipo de la marca Funkoshop"
+            />
+          </picture>
+        </nav>
+      </section>
+      <p>All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer>
   </body>
 </html>
